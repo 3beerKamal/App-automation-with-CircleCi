@@ -64,8 +64,8 @@ jobs:
           command: |
             # Your code here
             cd backend
-            sudo npm install
-            sudo npm run build
+            npm install
+            npm run build
             exit 1
       - save_cache:
           paths: [backend/node_modules]
