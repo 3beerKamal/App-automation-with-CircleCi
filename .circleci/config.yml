@@ -13,8 +13,7 @@ jobs:
           command: |
             # Your code here
             cd frontend
-
-            npm install -g n
+            npm install
             npm run build
             exit 1
       - save_cache:
@@ -33,7 +32,7 @@ jobs:
           command: |
             # Your code here
             cd backend
-            npm install -g n
+            npm install
             npm run build
             exit 1
       - save_cache:
