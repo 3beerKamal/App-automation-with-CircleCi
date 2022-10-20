@@ -13,6 +13,7 @@ jobs:
           command: |
             # Your code here
             cd frontend
+            npm update
             npm install
             npm run build
             exit 1
@@ -32,6 +33,7 @@ jobs:
           command: |
             # Your code here
             cd backend
+            npm update
             npm install
             npm run build
             exit 1
