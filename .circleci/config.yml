@@ -45,8 +45,8 @@ jobs:
           command: |
             # Your code here
             cd frontend
-            sudo npm install
-            sudo npm run build
+            npm install
+            npm run build
             exit 1
       - save_cache:
           paths: [frontend/node_modules]
