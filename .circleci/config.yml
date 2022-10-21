@@ -176,7 +176,7 @@ jobs:
   run-migrations:
     docker:
       - image: circleci/node:13.8.0
-          user : root
+          user: root
     steps:
       - checkout
       - run:
